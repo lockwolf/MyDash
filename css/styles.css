@@ -5,6 +5,9 @@ body {
 .navbar {
   background-image: linear-gradient(#a9aaaa, #eb4f06); }
 
+.row-content {
+  padding-top: 10px; }
+
 .navbar-brand {
   color: #f7f7f7; }
 
@@ -13,20 +16,6 @@ body {
 
 .jumbotron {
   background-color: #c7c7c7; }
-
-.stripe {
-  background-color: #000000;
-  height: 100px;
-  position: relative; }
-
-.stripe:before {
-  content: "";
-  background-color: #000000;
-  position: absolute;
-  height: 100%;
-  width: 4000px;
-  left: -2000px;
-  z-index: -1; }
 
 .schedule-item {
   height: 105px; }

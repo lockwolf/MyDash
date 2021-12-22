@@ -15,6 +15,10 @@ body{
     background-image: $color-navbar;
 }
 
+.row-content{
+    padding-top: 10px;
+}
+
 .navbar-brand{
     color: $color-header-text;
 }
@@ -26,20 +30,6 @@ body{
     background-color: $color-bg;
 }
 
-.stripe {
-    background-color: $color-sides;
-    height: 100px;
-    position: relative;
-}
-.stripe:before {
-    content:"";
-    background-color: $color-sides;
-    position: absolute;
-    height: 100%;
-    width: 4000px;
-    left: -2000px;
-    z-index: -1;
-}
 
 .schedule-item{
     height: 105px;
