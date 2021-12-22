@@ -1,0 +1,89 @@
+$color-navbar: linear-gradient(#a9aaaa, #eb4f06);
+$color-bg: #c7c7c7;
+$color-sides: #000000;
+$color-header-bg: linear-gradient(#a9aaaa, #eb4f06);
+$color-header-text: #f7f7f7;
+$color-weather-bg: linear-gradient(#2e559e, #3e3a61);
+$color-weather-text: #ffffff;
+
+body{
+    padding-top: 70px;
+    background-color: #000000;
+}
+
+.navbar {
+    background-image: $color-navbar;
+}
+
+.navbar-brand{
+    color: $color-header-text;
+}
+.container{
+    background-color: $color-sides;
+}
+
+.jumbotron {
+    background-color: $color-bg;
+}
+
+.stripe {
+    background-color: $color-sides;
+    height: 100px;
+    position: relative;
+}
+.stripe:before {
+    content:"";
+    background-color: $color-sides;
+    position: absolute;
+    height: 100%;
+    width: 4000px;
+    left: -2000px;
+    z-index: -1;
+}
+
+.schedule-item{
+    height: 105px;
+}
+
+#headerJumbo{
+    height: 100%;
+}
+
+#weatherCard{
+    height:100%;
+}
+
+#weatherCardBody{
+    background-image: $color-weather-bg;
+    color: $color-weather-text;
+    text-align: center;
+}
+
+#weatherCardHeader{
+    color: $color-header-text;
+    background-image: $color-header-bg;
+}
+
+#weatherIcon{
+    height: 90%;
+    width: 50%;
+    text-align: center;
+}
+
+#scheduleCard{
+    height: 100%;
+}
+
+#scheduleCardHeader{
+    background-image: $color-header-bg;
+    color: $color-header-text;
+}
+
+#eventsCard{
+    height: 100%;
+}
+
+#eventsCardHeader{
+    background-image: $color-header-bg;
+    color: $color-header-text;
+}

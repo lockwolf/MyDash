@@ -1,0 +1,66 @@
+body {
+  padding-top: 70px;
+  background-color: #000000; }
+
+.navbar {
+  background-image: linear-gradient(#a9aaaa, #eb4f06); }
+
+.navbar-brand {
+  color: #f7f7f7; }
+
+.container {
+  background-color: #000000; }
+
+.jumbotron {
+  background-color: #c7c7c7; }
+
+.stripe {
+  background-color: #000000;
+  height: 100px;
+  position: relative; }
+
+.stripe:before {
+  content: "";
+  background-color: #000000;
+  position: absolute;
+  height: 100%;
+  width: 4000px;
+  left: -2000px;
+  z-index: -1; }
+
+.schedule-item {
+  height: 105px; }
+
+#headerJumbo {
+  height: 100%; }
+
+#weatherCard {
+  height: 100%; }
+
+#weatherCardBody {
+  background-image: linear-gradient(#2e559e, #3e3a61);
+  color: #ffffff;
+  text-align: center; }
+
+#weatherCardHeader {
+  color: #f7f7f7;
+  background-image: linear-gradient(#a9aaaa, #eb4f06); }
+
+#weatherIcon {
+  height: 90%;
+  width: 50%;
+  text-align: center; }
+
+#scheduleCard {
+  height: 100%; }
+
+#scheduleCardHeader {
+  background-image: linear-gradient(#a9aaaa, #eb4f06);
+  color: #f7f7f7; }
+
+#eventsCard {
+  height: 100%; }
+
+#eventsCardHeader {
+  background-image: linear-gradient(#a9aaaa, #eb4f06);
+  color: #f7f7f7; }

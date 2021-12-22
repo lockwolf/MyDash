@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- build:css css/main.css-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/weather-icons/css/weather-icons.min.css" />
+    <!-- endbuild -->
+    <title>MyDash (Beta) - Personal Dashboard</title>
+</head>
+<body>
+    <div class="container">
+    <nav class="navbar fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/monitor.svg" width="32" height="32"> MyDash - Personal Dashboard
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MyDash</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Dashbaord Settings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Account Settings</a>
+                </li>
+                <hr/>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Logout</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col col-sm-12">
+            <div class="jumbotron" id="headerJumbo">
+              <div class="row">
+                <div class="col-sm-12 col-md-3">
+                  <div class="card" id="weatherCard">
+                    <div class="card-header" id="weatherCardHeader">
+                      <h5>Welcome back Mr. Kanye West</h5>
+                    </div>
+                    <div class="card-body" id="weatherCardBody">
+                      <img class="rounded mx-auto d-block" src="img/sun.svg" id="weatherIcon" alt="Sunny" />
+                      <h5 id="weatherText">69&deg; - Nice</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <div class="card" id="scheduleCard">
+                    <div class="card-header" id="scheduleCardHeader">
+                      <h5 class="text-center">Your Day</h5>
+                    </div>
+                    <div class="card-body" id="scheduleCardBody">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item schedule-item">
+                          <div class="row">
+                            <div class="col-sm-9">
+                              <h4>What it is!</h4>
+                            </div>
+                            <div class="col-sm-3">
+                              12/31/2099 12:30pm
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item schedule-item">
+                          <div class="row">
+                            <div class="col-sm-9">
+                              <h4>What it is!</h4>
+                            </div>
+                            <div class="col-sm-3">
+                              12/31/2099 12:30pm
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item schedule-item">
+                          <div class="row">
+                            <div class="col-sm-9">
+                              <h4>What it is!</h4>
+                            </div>
+                            <div class="col-sm-3">
+                              12/31/2099 12:30pm
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                  <div class="card" id="eventsCard">
+                    <div class="card-header" id="eventsCardHeader">
+                      <h5 class="text-center">Your Near Future</h5>
+                    </div>
+                    <div class="card-body" id="eventsCardBody">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item schedule-item">
+                          <div class="row">
+                            <div class="col-sm-9">
+                              <h6>What it is!</h6>
+                              12/31/2099 12:30pm
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item schedule-item">
+                          <div class="row">
+                            <div class="col-sm-9">
+                              <h6>What it is!</h6>
+                              12/31/2099 12:30pm
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item schedule-item">
+                          <div class="row">
+                            <div class="col-sm-9">
+                              <h6>What it is!</h6>
+                              12/31/2099 12:30pm
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+<!-- build:js js/main.js -->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="scripts/scripts.js"></script>
+<!-- endbuild -->
+</body>
+</html>
