@@ -4,11 +4,16 @@ $color-sides: #000000;
 $color-header-bg: linear-gradient(#a9aaaa, #eb4f06);
 $color-header-text: #f7f7f7;
 $color-weather-bg: linear-gradient(#2e559e, #3e3a61);
+$color-card-header-bg: linear-gradient(#6791df, #3e3a61);
 $color-weather-text: #ffffff;
 
 body{
-    padding-top: 70px;
-    background-color: #000000;
+    padding-top: 60px;
+    background-color: #0f7fa1;
+}
+
+#bodyCon{
+    background-color: #0f7fa1;
 }
 
 .navbar {
@@ -17,6 +22,7 @@ body{
 
 .row-content{
     padding-top: 10px;
+    min-height: 400px;
 }
 
 .navbar-brand{
@@ -32,7 +38,11 @@ body{
 
 
 .schedule-item{
-    height: 105px;
+    height: 100px;
+}
+
+#dailydashrow{
+    min-height: 400px;
 }
 
 #headerJumbo{
@@ -55,7 +65,7 @@ body{
 }
 
 #weatherIcon{
-    height: 90%;
+    min-height: 90%;
     width: 50%;
     text-align: center;
 }
@@ -75,5 +85,10 @@ body{
 
 #eventsCardHeader{
     background-image: $color-header-bg;
+    color: $color-header-text;
+}
+
+.card-header{
+    background-image: $color-card-header-bg;
     color: $color-header-text;
 }

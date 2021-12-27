@@ -1,12 +1,16 @@
 body {
-  padding-top: 70px;
-  background-color: #000000; }
+  padding-top: 60px;
+  background-color: #0f7fa1; }
+
+#bodyCon {
+  background-color: #0f7fa1; }
 
 .navbar {
   background-image: linear-gradient(#a9aaaa, #eb4f06); }
 
 .row-content {
-  padding-top: 10px; }
+  padding-top: 10px;
+  min-height: 400px; }
 
 .navbar-brand {
   color: #f7f7f7; }
@@ -18,7 +22,10 @@ body {
   background-color: #c7c7c7; }
 
 .schedule-item {
-  height: 105px; }
+  height: 100px; }
+
+#dailydashrow {
+  min-height: 400px; }
 
 #headerJumbo {
   height: 100%; }
@@ -36,7 +43,7 @@ body {
   background-image: linear-gradient(#a9aaaa, #eb4f06); }
 
 #weatherIcon {
-  height: 90%;
+  min-height: 90%;
   width: 50%;
   text-align: center; }
 
@@ -52,4 +59,8 @@ body {
 
 #eventsCardHeader {
   background-image: linear-gradient(#a9aaaa, #eb4f06);
+  color: #f7f7f7; }
+
+.card-header {
+  background-image: linear-gradient(#6791df, #3e3a61);
   color: #f7f7f7; }
