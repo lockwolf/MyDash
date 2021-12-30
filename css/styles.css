@@ -22,10 +22,10 @@ body {
   background-color: #c7c7c7; }
 
 .schedule-item {
-  height: 100px; }
+  min-height: 100px; }
 
-#dailydashrow {
-  min-height: 400px; }
+#dailyDashRow {
+  min-height: 350px; }
 
 #headerJumbo {
   height: 100%; }
@@ -43,9 +43,12 @@ body {
   background-image: linear-gradient(#a9aaaa, #eb4f06); }
 
 #weatherIcon {
-  min-height: 90%;
+  min-height: 85%;
   width: 50%;
   text-align: center; }
+
+#greetingTitle {
+  z-index: 1; }
 
 #scheduleCard {
   height: 100%; }
@@ -64,3 +67,22 @@ body {
 .card-header {
   background-image: linear-gradient(#6791df, #3e3a61);
   color: #f7f7f7; }
+
+.card-element {
+  height: 100%;
+  min-height: 300px;
+  overflow-y: auto; }
+
+.card-lower {
+  max-height: 300px; }
+
+#notepadCardBody {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; }
+
+#newsCardItems {
+  height: 100%; }
+
+#newsList {
+  width: 100%; }
